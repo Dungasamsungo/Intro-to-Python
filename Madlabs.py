@@ -1,3 +1,6 @@
+#I got creative by requesting the users information and gave them credit for collaborating with me 
+
+
 #This displays request instruction to the the user
 print('Please enter the follow:')
 #This gives space between lines
@@ -11,6 +14,11 @@ exclamation = input('Exclamation:')
 verb_2 =input('Verb:')
 verb_3 = input('Verb:')
 print()
+
+print('Thank you for your collaboration. What do friends call you?\n')
+name = input('Friends call me:')
+print()
+
 print('Your story is:\n')
 #The \n tag takes us to the next line
 #The print(f'{}) tag makes it possible to add space and puntuations properly while using data stored in variables
@@ -22,3 +30,4 @@ print(f'I could think to do was to {verb_2.lower()} over and over. Miraculously,
 print(f'that caused it to stop, but not before it tried to {verb_3.lower()}')
 print(f'right in front of my family.')
 print('')
+print(f'Story by:{name.capitalize()}')
