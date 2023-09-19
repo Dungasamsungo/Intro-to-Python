@@ -13,3 +13,15 @@
 
 # print(f'Each person may have {cookie_per_person} cookies ')
 
+# Converting between different types of units
+
+# The colon (:) after the variable name indicates that you are going to specify how to format it.
+# The period (.) indicates that you are setting the precision or number of decimal places.
+# The number (in this example 2) indicates that you would like that number of decimal places to be displayed
+# The f indicates that you want fixed-point notation.
+
+Temp_Fahrenheit = int(input('What is the temperature in Fahrenheit:'))
+difference = Temp_Fahrenheit - 32
+Temp_celcius = difference * 5/9
+
+print(f'The temperature in Celcius is {Temp_celcius:.1f}')
