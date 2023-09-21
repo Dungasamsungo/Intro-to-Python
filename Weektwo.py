@@ -20,7 +20,8 @@
 # The number (in this example 2) indicates that you would like that number of decimal places to be displayed
 # The f indicates that you want fixed-point notation.
 
-degrees_f = int(input('What is the temperature in Fahrenheit:'))
-degrees_c = (degrees_f - 32) * 5/9
+# degrees_f = int(input('What is the temperature in Fahrenheit:'))
+# degrees_c = (degrees_f - 32) * 5/9
 
-print(f'The temperature in Celcius is {degrees_c:.1f}')
+# print(f'The temperature in Celcius is {degrees_c:.1f} degrees')
+
