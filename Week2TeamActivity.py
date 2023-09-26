@@ -8,7 +8,7 @@ area = side **2
 
 print(f'The area of the square is {area}\n')
 
-#Area of a Triangle
+#Area of a rectangle 
 
 lenght = float(input('Enter the lenght of the rectangle:'))
 width = float(input('Enter the width of the rectangle:'))
