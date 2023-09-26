@@ -23,23 +23,37 @@
 
     #More than one conditions
 
-state= input('What is your state? ')
+# state= input('What is your state? ')
 
 
-tax = ''
+# tax = ''
 
-if state.upper() == 'ABUJA': # the case format msut match the condition result     
-    tax = 10
-elif state.upper() == 'LAGOS':
-    tax = 20
-elif state.upper() == 'ABIA':
-    tax = 15
+# if state.upper() == 'ABUJA': # the case format msut match the condition result     
+#     tax = 10
+# elif state.upper() == 'LAGOS':
+#     tax = 20
+# elif state.upper() == 'ABIA':
+#     tax = 15
 
-# in / or statements 
-elif state.upper() == 'MINA' or 'NIGER':
-    tax = 4 
-elif state in('ENUGU' , 'IMO' , 'SOKOTO'):
-    tax = 3
+# # in / or statements 
+# elif state.upper() == 'MINA' or 'NIGER':
+#     tax = 4 
+# elif state in('ENUGU' , 'IMO' , 'SOKOTO'):
+#     tax = 3
+# else:
+#     tax = 0
+# print(f'Your tax is {tax}')
+
+#nexted if statents 
+
+ocupation = input('What do you do? ')
+
+if ocupation.capitalize() == 'Student':
+   major = input('What is your major? ')
+
+   if major.capitalize() == 'Medcine':
+       print('you are going to be a doctor')
+   elif major.capitalize == 'Engineering':
+       print('You are going to be an Engineer')
 else:
-    tax = 0
-print(f'Your tax is {tax}')
+    print('You are not a student!')
