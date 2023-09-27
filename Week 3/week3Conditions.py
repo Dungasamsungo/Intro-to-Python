@@ -44,16 +44,43 @@
 #     tax = 0
 # print(f'Your tax is {tax}')
 
-#nexted if statents 
+#nested if statents 
 
-ocupation = input('What do you do? ')
+# ocupation = input('What do you do? ')
 
-if ocupation.capitalize() == 'Student':
-   major = input('What is your major? ')
+# if ocupation.capitalize() == 'Student':
+#    major = input('What is your major? ')
 
-   if major.capitalize() == 'Medcine':
-       print('you are going to be a doctor')
-   elif major.capitalize == 'Engineering':
-       print('You are going to be an Engineer')
+#    if major.capitalize() == 'Medcine':
+#        print('you are going to be a doctor')
+#    elif major.capitalize == 'Engineering':
+#        print('You are going to be an Engineer')
+# else:
+#     print('You are not a student!')
+
+#using And to combine conditions instead of nesting 
+gpa = float(input('Enter GPA: '))
+lowest_grade = float(input('Enter GPA: '))
+
+# if gpa >= .85:
+#     if lowest_grade >= .70:
+#         print('Good job!')
+
+# if gpa >=.85 and lowest_grade >= .07:
+#     print('Great Job')
+
+
+if gpa >=.85 and lowest_grade >= .07:
+    honourable = True
 else:
-    print('You are not a student!')
+    honourable = False
+
+if honourable:
+    print('CONGRATULATION')
+else:
+    print('Carry Over')
+
+
+
+
+
