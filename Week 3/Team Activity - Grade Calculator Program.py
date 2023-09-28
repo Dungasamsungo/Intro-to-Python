@@ -3,9 +3,11 @@
 
 #core requirments
 
-# 1
+# No1
+#Promt user for a grade percentage
 grade_percentage = float(input('Enter grade percentage: '))
 
+# Use conditions to determine the grade 
 if grade_percentage >= 90:
     grade = 'A'
     print(f'Grade is: {grade}')
@@ -25,3 +27,15 @@ elif grade_percentage >= 60:
 else :
      grade = 'F'
      print(f'Grade is: {grade}')
+print()
+
+# No 2
+
+# Display a congratulatory orencouragement message 
+
+if grade_percentage >= 70:
+     print('Congratulations! you passed the course.')
+
+else:
+     print("You are almost there. Don't give up.")
+
