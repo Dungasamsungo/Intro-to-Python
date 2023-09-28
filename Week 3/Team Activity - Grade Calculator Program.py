@@ -94,6 +94,13 @@ elif last_number < 3:
 else:
      sign = ''
 
+# No 2
+if letter == "A" and last_number >= 7:
+     sign = ''
+
+# No 3
+if letter == 'F':
+     sign = ''
 
 
 print(f'Your garde is {letter}{sign}')
