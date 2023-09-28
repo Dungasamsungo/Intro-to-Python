@@ -24,3 +24,10 @@ if favourite_animal.capitalize() == 'Dog':
     print("That's my favourite animal too!")
 else:
     print('That one is not my favourite')
+
+
+
+# No 3 
+
+
+
