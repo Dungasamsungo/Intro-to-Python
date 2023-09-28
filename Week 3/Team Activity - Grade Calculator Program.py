@@ -78,3 +78,25 @@ if grade_percentage >= 70:
 else:
      print("You are almost there. Don't give up.")
 
+
+# Stretch Challenge 
+
+last_number = grade_percentage%10
+
+
+if last_number >= 7:
+     sign = '+'
+     
+
+elif last_number < 3:
+     sign = '-'     
+
+else:
+     sign = ''
+
+
+
+print(f'Your garde is {letter}{sign}')
+
+
+
