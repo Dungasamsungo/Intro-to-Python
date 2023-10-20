@@ -48,7 +48,7 @@ print()
 with open("hr_system.txt") as staff_list:
     
     for line in staff_list:
-        staff = line.split(" ")
+        staff = line.split(",")
 
         name = staff[0]
         staff_id = staff[1]
