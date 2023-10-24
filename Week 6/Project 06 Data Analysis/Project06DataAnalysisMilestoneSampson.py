@@ -20,8 +20,7 @@ life = []
 with open("life-expectancy.csv") as file:
     next(file)
     for first_line in file:
-        clean_line = first_line.strip()
-        buffer = clean_line.split(",")
+        buffer = first_line.split(",")
 
         country_name.append(buffer[0])
         codes.append(buffer[1])

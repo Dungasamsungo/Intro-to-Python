@@ -39,7 +39,7 @@ with open("hr_system.txt") as staff_list:
         staff_id = staff[1]
         job_title = staff[2]
         salary = float(staff[3])
-    print(f"Name: {name} (ID: {staff_id}) Title: {job_title} - ${salary:.2f}") 
+        print(f"Name: {name} (ID: {staff_id}) Title: {job_title} - ${salary:.2f}") 
 
 print()
 
